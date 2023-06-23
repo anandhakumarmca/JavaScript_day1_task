@@ -1,12 +1,9 @@
 Write a blog about objects and its internal representation in Javascript
 
 Introduction:
-
 	A JavaScript object is a collection of named values having state and behavior (properties and method).
-	For example: Person, car, pen, bike, Personal Computer , Washing Machine etc.
-	
+For example: Person, car, pen, bike, Personal Computer , Washing Machine etc.
 	Take the case of cars. All cars have the same properties, but the property values differ from car to car. All cars have the same methods, but the methods are performed at different times.
-	
 	Let’s have an example of Mercedes car and list out its properties(Features):
 
 	Make: Mercedes 
@@ -20,13 +17,12 @@ Introduction:
 	Let's see Object properties and Methods.
 	
 1)Objects:
-	
 	The following code assigns a simple value (Mercedes) to a variable named car:
 	
 	Eg in JS code:
 	var car = "Mercedes";
 	
-	Objects are variables too. But objects can contain many values. The following code assigns many values (Mercedes, C-class, White 	and soo on) to a variable named Car:
+	Objects are variables too. But objects can contain many values. The following code assigns many values (Mercedes, C-class, White and soo on) to a variable named Car:
 	
 	Eg in JS code: 
 	var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};
@@ -59,7 +55,7 @@ Introduction:
 					Mileage 					8Kmpl
 					Rating						4.5
 									
-    	The object properties can be different primitive values, other objects and functions.Properties can usually be changed, added, and 	deleted, but some are read only.
+    	The object properties can be different primitive values, other objects and functions.Properties can usually be changed, added, and deleted, but some are read only.
 
 	The syntax for adding a property to an object is :
 	
@@ -80,7 +76,7 @@ Introduction:
 				//or
 	objectName[expression]	// x = "Make"; Car[x]
 	
-	So, Conclusion and simple definition for Java Script properties is “Properties are the values associated with a JavaScript 	object”.
+	So, Conclusion and simple definition for Java Script properties is “Properties are the values associated with a JavaScript object”.
 	
 3)Object Methods
 
